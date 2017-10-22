@@ -41,6 +41,13 @@ cd deploy
 terraform apply
 ```
 
+* Push the code to your newly created CodeCommit repository
+
+```bash
+git remote add codecommit <SSH_URL>
+git push codecommit master
+```
+
 * Submit a build
 
 ```bash
